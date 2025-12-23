@@ -4,4 +4,8 @@ Matakuliah Pemrograman Web Dasar<br>
 Kelompok {kelompok}<br>
 TIBLY Tahun ajaran 2025/2026
 Semester Gasal<br><br>
+<<<<<<< HEAD
 ![logo ISBAL](logoisbal.png)
+=======
+![logo ISBAL](logoisbal.png)
+>>>>>>> 6ed382ec530aff463bcb5187e7ceddc2319e0607
