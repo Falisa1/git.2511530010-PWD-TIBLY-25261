@@ -6,4 +6,5 @@ hari ini, 23 Desember 2025 saya belajar:
 <br>
 <ol>
     <li>copy pertemuan-02/index.html Falisa 27.html ke pertemuan-03</li>
+    <li>mengisi section about</li>
 </ol>
