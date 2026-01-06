@@ -14,6 +14,7 @@ hari ini, 23 Desember 2025 saya belajar:
     <li>membuat styling untuk selector ID #about mode dokumentasi</li>
     <li>membuat styling untuk selector ID #about#contact groups selector h2</li>
     <li>membuat styling untuk selector ID #section#contact upgrade struktur form</li>
+    <li>membuat styling untuk selector ID #section#contactn styling label</li>
     </ol>
     
 
