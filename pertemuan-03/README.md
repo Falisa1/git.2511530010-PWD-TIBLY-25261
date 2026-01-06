@@ -11,6 +11,7 @@ hari ini, 23 Desember 2025 saya belajar:
     <li>membuat styling untuk selector ID #about elemen p</li>
     <li>membuat styling untuk selector ID #about elemen strong</li>
     <li>membuat styling untuk selector ID #about mode responsif (mobile)</li>
+    <li>membuat styling untuk selector ID #about mode dokumentasi</li>
     </ol>
     
 
