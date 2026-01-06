@@ -6,10 +6,7 @@ hari ini, 23 Desember 2025 saya belajar:
 <br>
 <ol>
     <li>menggunakan file emmet.html pertemuan-02 untuk file index pertemuan-03</li>
-    <li>mengisi section about</li>
-    <li>mengisi section contact dengan emmet abbreviation</li>
-    <li>melengkapi attribut form</li>
-    <li>
+    </ol>
     
     </ol>
 
