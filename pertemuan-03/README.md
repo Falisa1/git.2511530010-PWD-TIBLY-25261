@@ -9,4 +9,5 @@ hari ini, 23 Desember 2025 saya belajar:
     <li>membuat styling untuk selector ID #about</li>
     <li>section#contact upgrade struktur form</li>
     <li>section#contact styling label</li>
+    <li>section#contact styling label>span</li>
     
