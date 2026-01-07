@@ -51,8 +51,8 @@
         margin-bottom: 16px;
       }
 
-      #about h2,
-      #contact h2 {
+    #about h2,
+    #contact h2 {
         color: #003366;
         border-bottom: 2px solid #003366;
         padding-bottom: 6px;
@@ -69,7 +69,7 @@
         flex-shrink: 0;
       }
 
-      #about p {
+        #about p {
         display: flex;
         justify-content: flex-start;
         align-items: baseline;
@@ -97,8 +97,8 @@
           border-bottom: 1px solid #e6e6e6; 
         }
 
-        #about p,
-        #contact label {
+      #about p,
+      #contact label {
           display: flex;
           justify-content: flex-start;
           alignment-baseline;
@@ -135,18 +135,28 @@
           flex-shrink: 0;
       }
 
-      @media (max-width: 600px){
-        #about p {
-          flex-direction: column;
-          align-items: flex-start;
-        }
+      #contact input, 
+      #contact textarea { 
+          flex: 1; 
+          border: 1px solid #ccc; 
+          border-radius: 6px; 
+          padding: 8px; 
+          color: #000; 
+          font-weight: normal; 
+          margin: 0; 
+          box-sizing: border-box;
+          {
+        
+        @media (max-width: 600px) { 
+          #about p { 
+        flex-direction: column; 
+        align-items: flex-start; 
 
-        #about strong {
-          text-align: left;
-          padding-right: 0;
-          margin-bottom: 2px;
-        }
-      }
+        #about{ 
+        text-align: left; 
+        padding-right: 0; 
+        margin-bottom: 2px; 
+       
 
     </style>
 </head>
