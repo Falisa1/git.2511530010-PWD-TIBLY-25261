@@ -6,6 +6,5 @@ hari ini, 23 Desember 2025 saya belajar:
 <br>
 <ol>
     <li>menggunakan file emmet.html pertemuan-02 untuk file index.html pertemuan-03</li>
+    <li>membuat styling untuk selector ID #about</li>
     
-    
-
