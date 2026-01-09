@@ -10,9 +10,9 @@
         <h1>Ini Header</h1>
         <nav>
             <ul>
-                <li><a href="#home"></a></li>
-                <li><a href="about"></a></li>
-                <li><a href="#contact"></a></li>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="about">Tentang</a></li>
+                <li><a href="#contact">Kontak</a></li>
             </ul>
         </nav>
     </header>
@@ -24,11 +24,11 @@
         <section id="about"
             <h2>Tentang saya</h2>
             <P><strong>NIM</strong>2511530010</P>
-            <P><strong>Nama Lengkap</strong>Falisa Ratma Utama</P>
+            <P><strong>Nama Lengkap</strong>Falisa Ratma Utama &#128526;</P>
             <P><strong>Tempat Lahir</strong>Karang Rejo</P>
             <P><strong>Tanggal Lahir</strong>27 Juli 2007</P>
-            <P><strong>Hobi</strong>Menulis</P>
-            <P><strong>Pasangan </strong>Belum Ada</P>
+            <P><strong>Hobi</strong>Menulis &#127926;</P>
+            <P><strong>Pasangan </strong>Belum Ada &hearts;</P>
             <P><strong>Pekerjaan</strong>Mahasiswa ISB Atma Luhur</P>
             <P><strong>Nama Orang Tua</strong>Bapak Sumarlan Dan Ibu Ratna Dewi Yanti</P>
             <P><strong>Nama Kakak</strong>Zidane</P>
@@ -36,8 +36,18 @@
         </section>
         <section id="contact">
             <h2>Kontak Kami</h2>
-            <p>Contoh form</p>
-        </section>
+            <form action="" method="GET">
+                <label for="txtNama">Nama:</label>
+                <input type="text" id="txtNama" name="txtNama" placeholder="Masukan nama" required autocomplete="name"
+            
+                <label for="txtEmail">Email:</label>
+                <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukan email" required autocomplete="email">
+
+                <label for="txtPesan">Pesan:</label>
+                <textarea id="txtPesan" name="txtpesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+
+                <button type="sublim">Kirim</button>
+                <button type="reset">Batal</button>
     </main>
     <footer>
         <p>&copy; 2025 Falisa Ratma Utama [2511530010]</p>
