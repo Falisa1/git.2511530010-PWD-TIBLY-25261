@@ -13,6 +13,16 @@
           margin: 20px auto;
           box-shadow: 0 2px 5px rgba(0, 0, 0, 0.);
         }
+        
+        #about h2 {
+            color: #003366;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 6px;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        
     </style>
 </head>
 <body>
@@ -46,8 +56,18 @@
         </section>
         <section id="contact">
             <h2>Kontak Kami</h2>
-            <p>Contoh form</p>
-            <form action=""><label for=""></label><input type="text"><label for=""></label><input type="text"><label for=""></label>
+            <form action=""method="GET">
+                <label for="txtNama">Nama:</label> 
+                <input type="text" id="txtNama" name="txtNama" placeholder="Masukan nama" required autocomplete="name">
+
+                <label for="txtEmail">Email:</label>
+                <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukan email" required autocomplete="email">
+
+                <label for="txtPesan">Pesan</label>
+                <txttarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></txttarea>
+
+                <button type="sublit">Kirim</button>
+                <button type="reset">Batal</button>
         </section>
     </main>
     <footer>
