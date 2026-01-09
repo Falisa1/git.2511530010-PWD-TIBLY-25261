@@ -9,4 +9,4 @@ hari ini, 23 Desember 2025 saya belajar:
     <li>mengisi section about</li>
     <li>mengisi section contact dengan emmet abbreviation</li>
     <li>melengkapi atribut form</li>
-    <li></li>
+    <li>styling section #about</li>
