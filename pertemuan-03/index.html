@@ -41,12 +41,31 @@
             margin-bottom: 16px;
         }
 
+        #contact label {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin: 0;
+            padding: 6px;
+            border-bottom: 1px solid #e6e6e6;
+        }
+
         #about p {
             display: flex;
             justify-content: flex-start;
             align-items: baseline;
             margin: 0;
             padding: 6px;
+            border-bottom: 1px solid #e6e6e6;
+        }
+
+        #about p,
+        #contact label {
+            display: flex;
+            justify-content: flex-start;
+            align-items: baseline;
+            margin: 0;
+            padding: 6px 0;
             border-bottom: 1px solid #e6e6e6;
         }
 
@@ -105,13 +124,13 @@
         <section id="contact">
             <h2>Kontak Kami</h2>
             <form action=""method="GET">
-                <label for="txtNama">Nama:</label> 
+                <label for="txtNama"><span>Nama:</span> 
                 <input type="text" id="txtNama" name="txtNama" placeholder="Masukan nama" required autocomplete="name">
 
-                <label for="txtEmail">Email:</label>
+                <label for="txtEmail"><span>Email:</span>
                 <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukan email" required autocomplete="email">
 
-                <label for="txtPesan">Pesan</label>
+                <label for="txtPesan"><span>Pesan</span>
                 <txttarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></txttarea>
 
                 <button type="sublit">Kirim</button>
