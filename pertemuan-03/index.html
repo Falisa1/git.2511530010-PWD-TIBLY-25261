@@ -55,17 +55,18 @@
         </section>
         <section id="contact">
             <h2>Kontak Kami</h2>
-            <from action="">
-            <label for=""></label>
-            <input type="text">
+            <from action="" method="post">
+            <label for="txtNama">Nama:</label>
+            <input type="text" id="txtNama" name="txtNama" placeholder="Masukan nama" required autocomplete="name">
 
-            <label for=""></label>
-            <input type="text">
+            <label for="txtEmai">Email:</label>
+            <input type="text" id="txtEmail" name="txtEmail" placeholder="Masukan email" required autocomplete="email">
             
-            <label for=""></label>
-            <textarea name="" id=""></textarea>
+            <label for="txtPesan">Pesan</label>
+            <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
             
-            <button></button>
+            <button type="sublim"Kirim</button>
+            <button type="reset">Batal</button>
         </from>
     </main>
     <footer>

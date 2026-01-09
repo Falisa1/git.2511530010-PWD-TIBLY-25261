@@ -7,3 +7,4 @@ hari ini, 23 Desember 2025 saya belajar:
     <li>copy index.html dari pertemuan-02 ke pertemuan-03<li>
     <li>mengisi section about</li>
     <li>mengisi section contact dengan emmet abbreviation</li>
+    <li>melengkapi atribut form</li>
