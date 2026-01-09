@@ -60,7 +60,7 @@
         }
 
         #about p,
-        #contact label {
+        #contact label>span {
             display: flex;
             justify-content: flex-start;
             align-items: baseline;
@@ -98,6 +98,18 @@
             font-weight: normal;
             margin: 0;
             box-sizing: border-box;
+        }
+
+        #contact button {
+            margin-top: 10px;
+            display: inline-block;
+            padding: 10px 24px;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            border: none;
+            transition: all 0.3s ease;
+            margin-right: 8px;
         }
 
         @media (max-width: 600px) {
@@ -146,15 +158,15 @@
         <section id="contact">
             <h2>Kontak Kami</h2>
             <form action=""method="GET">
-                <label for="txtNama"><span>Nama:</span> 
+                <label for="txtNama">Nama:</label> 
                 <input type="text" id="txtNama" name="txtNama" placeholder="Masukan nama" required autocomplete="name">
-
-                <label for="txtEmail"><span>Email:</span>
+                
+                <label for="txtEmail">Email:</label>
                 <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukan email" required autocomplete="email">
-
-                <label for="txtPesan"><span>Pesan</span>
+                
+                <label for="txtPesan">Pesan</label>
                 <txttarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></txttarea>
-
+                
                 <button type="sublit">Kirim</button>
                 <button type="reset">Batal</button>
         </section>
